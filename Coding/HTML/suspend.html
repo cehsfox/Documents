@@ -1,0 +1,657 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<head>
+<!--Begin title and metadata-->
+<title>UNLV Libraries - Exceeded Usage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Connecting from off-campus via ez-proxy.">
+<meta name="keywords" content="ezproxy">
+<!--these two tags are used to allow content providers and page editors to pull 
+together lists of their own pages using the verity search engine.  "author" is 
+the content provider,  "editor" is the page editor-->
+<meta name="author" content="Yunkin, Michael">
+<meta name="editor" content="Yunkin, Michael">
+<!--End title and metadata-->
+<!--the external javascript file contains javascriopts required across the site.  Do not alter or remove-->
+<script type="text/javascript" language="JavaScript" src="https://www.library.unlv.edu/main-ezproxy.js">
+
+</script>
+<!--style sheets.  We use the @import directive 
+because some parts of the site, notably the branch pages, will need to load more than one style sheet-->
+<style>
+@import url(https://www.library.unlv.edu/main-ezproxy.css);
+</style>
+
+</head>
+<body lang="en" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!--Begin include for top menu bar-->
+        <!--Begin include for top menu bar-->
+        <header id="section-header" class="section section-header">
+    <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">
+        <div id="zone-user" class="zone zone-user clearfix container-12">
+            <div class="grid-8 region region-user-first" id="region-user-first">
+                <div class="region-inner region-user-first-inner">
+                    <div class="block block-library-content block-header-unlv-logo block-library-content-header-unlv-logo odd"
+                    id="block-library-content-header-unlv-logo">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <a href="http://www.unlv.edu" alt="UNLV Home"><img src="/images/logo-unlv.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-4 region region-user-second" id="region-user-second">
+                <div class="region-inner region-user-second-inner">
+                    <div class="block block-library-content block-header-unlv-search block-library-content-header-unlv-search odd"
+                    id="block-library-content-header-unlv-search">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <ul id="qm0" class="qmmc menu">
+                                    <li>
+                                        <a href="https://webcampus.nevada.edu/webct/entryPage.dowebct?insId=33129041&insName=University%20of%20Nevada%2C%20Las%20Vegas&glcid=URN%3AX-WEBCT-VISTA-V1%3A99f310c7-83d8-0953-0164-1ab18c3441c1">WebCampus</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://my.unlv.nevada.edu/psp/lvporprd/EMPLOYEE/EMPL/h/?tab=PAPP_GUEST">MyUNLV</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://rebelmail.unlv.edu/">Rebelmail</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">
+                <div id="zone-branding" class="zone zone-branding clearfix container-12">
+                    <div class="grid-12 region region-branding" id="region-branding">
+                        <div class="region-inner region-branding-inner">
+                            <div class="branding-data clearfix">
+                                <div class="logo-img">
+                                    <a href="http://www.library.unlv.edu" rel="home" title="" class="active"><img src="http://www.library.unlv.edu/sites/default/files/logo-drupal-1.png" alt="" id="logo" /></a>
+                                </div>
+                            </div>
+                            <div class="block block-libsearch block-library-search-bar block-libsearch-library-search-bar even block-without-title"
+                            id="block-libsearch-library-search-bar">
+                                <div class="block-inner clearfix">
+                                    <div class="content clearfix">
+                                        <div id="searchWrapper">
+                                            <select id="searchDropdownBox" class="searchSelect" title="Search">
+                                                <option value="quick">
+                                                    Quick Search
+                                                </option>
+                                                <option value="books">
+                                                    Books
+                                                </option>
+                                                <option value="articles">
+                                                    Articles
+                                                </option>
+                                                <!--<option value="old-cat">Old Catalog</option>-->
+                                                <option value="title">
+                                                    Catalog: Title
+                                                </option>
+                                                <option value="author">
+                                                    Catalog: Author
+                                                </option>
+                                                <option value="subject">
+                                                    Catalog: Subject
+                                                </option>
+                                                <!--<option value="lib-site">Libraries Site</option>-->
+                                                <option value="site-search">
+                                                    Site Search
+                                                </option>
+                                            </select>
+                                            <div id="searchLib" class="">
+                                                <div id="summon" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                                                    <form action="http://unlv.summon.serialssolutions.com/search" id="summonsearch"
+                                                    method="get" enctype="application/x-www-form-urlencoded" onSubmit="return checkSearchBox('searchbox_s_q', 'books, articles, & more');">
+                                                        <fieldset style="border:none;">
+                                                            <input class="clearMeFocus" id="searchbox_s_q" name="s.q" type="text"
+                                                            value="books, articles, & more" onfocus="this.value==this.defaultValue?this.value='':null;this.className='clearMeFocus1';">
+                                                            <input type="submit" value="go" onclick="return checkSearchBox();" class="button-go">
+                                                            <input checked="checked" id="summonAll" name="s.cmd" type="radio" value="">
+                                                            <label for="summonAll">
+                                                                books, articles, and more
+                                                            </label>
+                                                            <input id="summonBooks" name="s.cmd" type="radio" value="addFacetValueFilters(ContentType,Book,eBook,Web Resource)">
+                                                            <label for="summonBooks">
+                                                                only books
+                                                            </label>
+                                                            <input id="summonArticles" name="s.cmd" type="radio" value="addFacetValueFilters(ContentType,Journal Article,Newspaper Article)">
+                                                            <label for="summonArticles">
+                                                                only articles
+                                                            </label>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                                <form id="webpac-title" action="http://webpac.library.unlv.edu/search/t"
+                                                method="get" onSubmit="return checkSearchBox('searchbox-title', 'search catalog by title');">
+                                                    <input type="text" class="clearMeFocus" id="searchbox-title" name="search"
+                                                    value="search catalog by title" onfocus="this.value==this.defaultValue?this.value='':null;this.className='clearMeFocus1';">
+                                                    <select name="searchscope">
+                                                        <option value="1" selected>
+                                                            Entire UNLV Collection
+                                                        </option>
+                                                    </select>
+                                                    <input type="submit" value="go" class="button-go">
+                                                </form>
+                                                <form id="webpac-author" action="http://webpac.library.unlv.edu/search/a"
+                                                method="get" onSubmit="return checkSearchBox('searchbox-author', 'search catalog by author');">
+                                                    <input type="text" class="clearMeFocus" id="searchbox-author" name="search"
+                                                    value="search catalog by author" onfocus="this.value==this.defaultValue?this.value='':null;this.className='clearMeFocus1';">
+                                                    <select name="searchscope">
+                                                        <option value="1" selected>
+                                                            Entire UNLV Collection
+                                                        </option>
+                                                    </select>
+                                                    <input type="submit" value="go" class="button-go">
+                                                </form>
+                                                <form id="webpac-subject" action="http://webpac.library.unlv.edu/search/d"
+                                                method="get" onSubmit="return checkSearchBox('searchbox-subject', 'search catalog by subject');">
+                                                    <input type="text" class="clearMeFocus" id="searchbox-subject" name="search"
+                                                    value="search catalog by subject" onfocus="this.value==this.defaultValue?this.value='':null;this.className='clearMeFocus1';">
+                                                    <select name="searchscope">
+                                                        <option value="1" selected>
+                                                            Entire UNLV Collection
+                                                        </option>
+                                                    </select>
+                                                    <input type="submit" value="go" class="button-go">
+                                                </form>
+                                                <form action="/search/googleresults.html" id="cse-search-box" onSubmit="return checkSearchBox('google-q', '');">
+                                                    <input type="hidden" name="cx" value="001581898298350756962:-ch-cv_3h1k"
+                                                    />
+                                                    <input type="hidden" name="cof" value="FORID:10" />
+                                                    <input type="hidden" name="ie" value="UTF-8" />
+                                                    <input type="text" name="q" size="31" id="google-q" />
+                                                    <input class="button-go" type="submit" name="sa" value="go" />
+                                                </form>
+                                                <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"
+                                                onSubmit="return checkSearchBox('edit-search-block-form--2', '');">
+                                                    <input title="search the University Libraries site" type="text" id="edit-search-block-form--2"
+                                                    name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+                                                    <input type="submit" id="edit-submit" name="op" value="go" class="form-submit button-go">
+                                                    <input type="hidden" name="form_build_id" value="form-S_8eaJ65H7lQzTMYuSjBHOSanLQv7sI5JGn2qvK7LKs">
+                                                    <input type="hidden" name="form_token" value="JZ_BBn6jG-GyVex3i-pt2Je9zL8G11wqgsH9oQquHno">
+                                                    <input type="hidden" name="form_id" value="search_block_form">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">
+                <div id="zone-menu" class="zone zone-menu clearfix container-12">
+                    <div class="grid-12 region region-menu" id="region-menu">
+                        <div class="region-inner region-menu-inner">
+                            <nav class="navigation">
+                                <h2 class="element-invisible">
+                                    Main menu
+                                </h2>
+                                <ul id="main-menu" class="links inline clearfix main-menu">
+                                    <li class="menu-490 first active">
+                                        <a href="http://www.library.unlv.edu">Home</a>
+                                    </li>
+                                    <li class="menu-491">
+                                        <a href="http://www.library.unlv.edu/research">Research</a>
+                                    </li>
+                                    <li class="menu-609">
+                                        <a href="http://www.library.unlv.edu/services">Services</a>
+                                    </li>
+                                    <li class="menu-607">
+                                        <a href="http://www.library.unlv.edu/computing">Computing</a>
+                                    </li>
+                                    <li class="menu-488">
+                                        <a href="http://www.library.unlv.edu/about">About</a>
+                                    </li>
+                                    <li class="menu-608 last">
+                                        <a href="http://www.library.unlv.edu/contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="section-content" class="section section-content">
+            <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">
+                <div id="zone-content" class="zone zone-content clearfix container-24">
+                    <h2 class="element-invisible">
+                        You are here
+                    </h2>
+                    <div id="get-help">
+                        <a href="/help"><img src="http://www.library.unlv.edu/images/button-cover.png"></a>
+                    </div>
+                    <h1 class="title" id="page-title">
+                        &nbsp;
+                    </h1>
+                    <div class="grid-16 region region-content" id="region-content">
+                        <div class="region-inner region-content-inner hack-maincontent-plus">
+                            <a id="main-content"></a>
+                            <!--end top menu bar-->
+<div id="container">
+    <div ID="contentarea">
+        <div ID="breadcrumbs">
+            <a href="http://www.library.unlv.edu/index.html">UNLV Libraries Main Page</a> -&gt; Connecting from off-campus
+        </div>
+        <h1>Error: User Exceeded Data Usage</h1>
+        <p>
+            The page you have requested is part of an online subscription licensed by UNLV Libraries. 
+        </p>
+
+    </div>
+</div> <!-- /contentarea -->
+  <!--end page content-->
+<!--begin page footer-->
+                        </div>
+                        <div class="grid-8 region region-sidebar-second hack-sidebar-plus" id="region-sidebar-second">
+                            <div class="region-inner region-sidebar-second-inner">
+                                <section class="block block-block block-14 block-block-14 odd" id="block-block-14">
+                                    <div class="block-inner clearfix">
+                                        <div class="h2-block-title-wrapper">
+                                          <h2 class="block-title">Help</h2>
+                                        </div>
+                                        <div class="content clearfix">
+                                            <ul class="nobullet">
+                                                <li>
+                                                    <span>
+                                                        Don't have a PIN?
+                                                    </span>
+                                                    <a href="https://webpac.library.unlv.edu/patroninfo~S1/">Create a PIN</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.library.unlv.edu/help/pin/pinFAQ#error2">Forgot your PIN?</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.library.unlv.edu/help/pin/pinFAQ.html#PINhelp">PIN Help</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.library.unlv.edu/help/remote.html">Instructions for Connecting to Electronic Resources from Off-Campus</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.library.unlv.edu/help/remoteFAQ.html">Remote Access FAQ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="section-footer" class="section section-footer">
+    <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">
+        <div id="zone-footer" class="zone zone-footer clearfix container-24">
+            <div class="grid-12 region region-footer-first" id="region-footer-first">
+                <div class="region-inner region-footer-first-inner">
+                    <div class="block block-library-content block-footer-locations block-library-content-footer-locations odd"
+                    id="block-library-content-footer-locations">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <h2>Locations</h2>
+                                <div class="locations">
+                                  <div class="select-library stilts">
+                                    <form method="post">
+                                      <select id="library-select">
+                                        <option value="lied" selected="selected">Lied Library</option>
+                                        <option value="specialcol">Special Collections</option>
+                                        <option value="arch">Architecture Library</option>
+                                        <option value="curr">Curriculum Materials</option>
+                                        <option value="music">Music Library</option>
+                                        <option value="law">Law Library</option>
+                                      </select>
+                                    </form>
+                                  </div>
+                                  <div id="lib-lied" class="lib-branch active">
+                                    <div class="map grid-6 omega map-lied"></div>
+                                    <p class="address grid-6 alpha">4505 South Maryland Pkwy.
+                                      <br />Box 457001
+                                      <br />Las Vegas, Nevada
+                                      <br />89154-7001
+                                      <br />
+                                      <br />(702) 895-2100
+                                    </p>
+                                  </div>
+                                  <div id="lib-specialcol" class="lib-branch">
+                                    <div class="map grid-6 omega map-lied"></div>
+                                    <p class="address grid-6 alpha">4505 South Maryland Pkwy.
+                                      <br />Box 457010
+                                      <br />Las Vegas, Nevada
+                                      <br />89154-7010
+                                      <br />
+                                      <br /><a href="/speccol">Library Site &#187;</a>
+                                      <br />(702) 895-2234
+                                    </p>
+                                  </div>
+                                  <div id="lib-arch" class="lib-branch">
+                                    <div class="map grid-6 omega map-arch"></div>
+                                    <p class="address grid-6 alpha">4505 South Maryland Pkwy.
+                                      <br />Box 454049
+                                      <br />Las Vegas, Nevada
+                                      <br />89154-4049
+                                      <br />
+                                      <br /><a href="/arch">Library Site &#187;</a>
+                                      <br />(702) 895-1959
+                                    </p>
+                                  </div>
+                                  <div id="lib-curr" class="lib-branch">
+                                    <div class="map grid-6 omega map-curr"></div>
+                                    <p class="address grid-6 alpha">4505 South Maryland Pkwy.
+                                      <br />Box 453009
+                                      <br />Las Vegas, Nevada
+                                      <br />89154-3009
+                                      <br />
+                                      <br /><a href="/cml">Library Site &#187;</a>
+                                      <br />(702) 895-3593
+                                    </p>
+                                  </div>
+                                  <div id="lib-music" class="lib-branch">
+                                    <div class="map grid-6 omega map-music"></div>
+                                    <p class="address grid-6 alpha">4505 South Maryland Pkwy.
+                                      <br />Box 457002
+                                      <br />Las Vegas, Nevada
+                                      <br />89154-7002
+                                      <br />
+                                      <br /><a href="/music">Library Site &#187;</a>
+                                      <br />(702) 895-2541
+                                    </p>
+                                  </div>
+                                  <div id="lib-law" class="lib-branch">
+                                    <div class="map grid-6 omega map-law"></div>
+                                    <p class="address grid-6 alpha">4505 South Maryland Pkwy.
+                                      <br />Box 451003
+                                      <br />Las Vegas, Nevada
+                                      <br />89154-1003
+                                      <br />
+                                      <br /><a href="http://law.unlv.edu/law-library/home.html">Library Site &#187;</a>
+                                      <br />(702) 895-3671
+                                    </p>
+                                  </div>
+                                  <div class="footer-more-hours grid-6 omega">
+                                    <div class="footer-block">
+                                      <h5>
+                                          More Information
+                                      </h5>
+                                      <ul class="no-bullet">
+                                        <li>
+                                          <a href="/services/hours">Future Library Hours</a>
+                                        </li>
+                                        <li>
+                                          <a href="http://www.campusdish.com/en-US/CSW/UNLV/RetailLocations/LiedLibrary.htm">Book &amp; Bean Hours</a>
+                                        </li>
+                                        <li>
+                                          <a href="http://www.unlv.edu/assets/maps/flash/parking.html">Parking Information</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                    <div class="hours grid-6 alpha">
+                                        <h5>Today&#39;s Hours:</h5>
+                                        <div id="lib_all_hours">
+                                        </div>
+                                        <script type="text/javascript" src="/Scripts/ajax2.js"></script>
+                                        <script type="text/javascript" src="/Scripts/library_content-hours.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-12 region region-footer-first-right" id="region-footer-first-right">
+                <div class="region-inner region-footer-first-right-inner">
+                    <div class="block block-library-content block-footer-contact block-library-content-footer-contact odd"
+                    id="block-library-content-footer-contact">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <h2>Contact</h2>
+<div class="grid-6 alpha">
+  <div class="footer-block">
+    <h5>
+      Ask Us!
+    </h5>
+    <ul class="no-bullet">
+      <li>
+        <a href="#" onclick="MyWindow=window.open('/ask/h3lp.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=340,height=340'); return false;">
+          <span class="glyph">W</span> Chat
+        </a>
+      </li>
+      <li>
+        <a href="/contact/text_message">
+          <span class="glyph">b</span> Text
+        </a>
+      </li>
+      <li>
+        <a href="/contact">
+          <span class="glyph">O</span>&nbsp; Phone
+        </a>
+      </li>
+      <li>
+        <a href="/ask/email.php">
+          <span class="glyph">m</span> Email
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-block">
+    <h5>
+      Social Media
+    </h5>
+    <div class="contact-group-links ">
+      <ul class="no-bullet">
+        <li>
+          <a href="https://www.facebook.com/unlvlib">
+            <span class="glyph facebook">G</span> Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/unlvlibraries">
+            <span class="glyph twitter">U</span> Twitter
+          </a>
+        </li>
+        <li>
+          <a href="http://www.youtube.com/user/unlvlibraries">
+            <span class="glyph youtube">P</span> YouTube
+          </a>
+        </li>
+        <li>
+            <a href="/contact/social_media">All Social Media</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="grid-6 omega">
+  <div class="footer-block">
+    <h5>
+      Directories
+    </h5>
+    <ul class="no-bullet">
+      <li>
+        <a href="/contact/librarians_by_subject">Librarians by Subject</a>
+      </li>
+      <li>
+        <a href="/about/staff/libstafinfo.php?style=2">Staff Directory</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-block">
+    <h5>
+      Employment
+    </h5>
+    <ul class="no-bullet">
+      <li>
+        <a href="/employment">Full-Time</a>
+      </li>
+      <li>
+        <a href="/employment/student.html">Student</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-block">
+    <h5>
+      Feedback
+    </h5>
+      <ul class="no-bullet">
+        <li>
+          <a href="/comments.php"><span class="glyph">Y</span> Provide Feedback</a>
+        </li>
+    </ul>
+  </div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-24 region region-footer-second" id="region-footer-second">
+                <div class="region-inner region-footer-second-inner">
+                    <div class="block block-block block-3 block-block-3 odd block-without-title"
+                    id="block-block-3">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <p class="terminus">
+                                    &copy; 2012 University of Nevada, Las Vegas
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+        </div>
+     <!--Begin Javascript-->
+<script type="text/javascript" src="http://www.library.unlv.edu/misc/jquery.js?v=1.4.4">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/misc/jquery.once.js?v=1.2">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/misc/drupal.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/misc/ui/jquery.ui.core.min.js?v=1.8.7">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/misc/ui/jquery.ui.widget.min.js?v=1.8.7">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/misc/ui/jquery.ui.position.min.js?v=1.8.7">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/modules/features_faq/features_faq.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/modules/library_content/library_content.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/modules/libsearch/libsearch.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/modules/contrib/selectmenu/js/jquery.ui.selectmenu/jquery.ui.selectmenu.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/modules/contrib/selectmenu/js/selectmenu.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/themes/contrib/omega/omega/js/jquery.formalize.js?m94p0j">
+</script>
+<script type="text/javascript" src="http://www.library.unlv.edu/profiles/janus2/themes/contrib/omega/omega/js/omega-mediaqueries.js?m94p0j">
+</script>
+<script type="text/javascript">
+<!--
+//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {
+    "basePath": "\/",
+    "pathPrefix": "",
+    "ajaxPageState": {
+        "theme": "omegalib",
+        "theme_token": "NnSln__IKD8zfexHk4tx9ifxCgWh3q1EfnBPSe0s2yE",
+        "js": {
+            "misc\/jquery.js": 1,
+            "misc\/jquery.once.js": 1,
+            "misc\/drupal.js": 1,
+            "misc\/ui\/jquery.ui.core.min.js": 1,
+            "misc\/ui\/jquery.ui.widget.min.js": 1,
+            "misc\/ui\/jquery.ui.position.min.js": 1,
+            "profiles\/janus2\/modules\/features_faq\/features_faq.js": 1,
+            "profiles\/janus2\/modules\/library_content\/library_content.js": 1,
+            "profiles\/janus2\/modules\/libsearch\/libsearch.js": 1,
+            "profiles\/janus2\/modules\/contrib\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.js": 1,
+            "profiles\/janus2\/modules\/contrib\/selectmenu\/js\/selectmenu.js": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js": 1
+        },
+        "css": {
+            "modules\/system\/system.base.css": 1,
+            "modules\/system\/system.menus.css": 1,
+            "modules\/system\/system.messages.css": 1,
+            "modules\/system\/system.theme.css": 1,
+            "misc\/ui\/jquery.ui.core.css": 1,
+            "misc\/ui\/jquery.ui.theme.css": 1,
+            "modules\/comment\/comment.css": 1,
+            "modules\/field\/theme\/field.css": 1,
+            "profiles\/janus2\/modules\/library_content\/library_content.css": 1,
+            "profiles\/janus2\/modules\/libsearch\/libsearch.css": 1,
+            "modules\/node\/node.css": 1,
+            "modules\/search\/search.css": 1,
+            "modules\/user\/user.css": 1,
+            "profiles\/janus2\/modules\/contrib\/views\/css\/views.css": 1,
+            "profiles\/janus2\/modules\/contrib\/ckeditor\/ckeditor.css": 1,
+            "profiles\/janus2\/modules\/contrib\/ctools\/css\/ctools.css": 1,
+            "profiles\/janus2\/modules\/contrib\/ldap\/ldap_help\/ldap_help.css": 1,
+            "profiles\/janus2\/modules\/contrib\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/css\/formalize.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/css\/omega-text.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/css\/omega-branding.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/css\/omega-menu.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/css\/omega-forms.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css": 1,
+            "profiles\/janus2\/themes\/omegalib\/css\/global.css": 1,
+            "ie::normal::profiles\/janus2\/themes\/omegalib\/css\/omegalib-alpha-default.css": 1,
+            "ie::normal::profiles\/janus2\/themes\/omegalib\/css\/omegalib-alpha-default-normal.css": 1,
+            "ie::normal::profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css": 1,
+            "ie::normal::profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css": 1,
+            "narrow::profiles\/janus2\/themes\/omegalib\/css\/omegalib-alpha-default.css": 1,
+            "narrow::profiles\/janus2\/themes\/omegalib\/css\/omegalib-alpha-default-narrow.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-24.css": 1,
+            "normal::profiles\/janus2\/themes\/omegalib\/css\/omegalib-alpha-default.css": 1,
+            "normal::profiles\/janus2\/themes\/omegalib\/css\/omegalib-alpha-default-normal.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css": 1,
+            "profiles\/janus2\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css": 1
+        }
+    },
+    "selectmenu": {
+        "form_id_exceptions": ["webpac-title", "webpac-author", "webpac-subject", "subjmenu"],
+        "ignore_system_settings_forms": 1,
+        "ignore_overlay_forms": 1,
+        "ignore_node_add_forms": 1,
+        "disable_for_admin_theme": 0
+    },
+    "omega": {
+        "layouts": {
+            "primary": "normal",
+            "order": ["narrow", "normal"],
+            "queries": {
+                "narrow": "all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)",
+                "normal": "all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"
+            }
+        }
+    }
+});
+//--><!]]>
+</script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+                        
+    </script>
+<![endif]-->
+<!--end page footer-->
+
+</body>
+</html>
+
